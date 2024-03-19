@@ -1,9 +1,61 @@
-* {
-  box-sizing: border-box;
-}
 html {
   font-size: 62.5%;
 }
 body {
   font-size: 1.6rem;
+  font-family: "Convergence", sans-serif;
+}
+/* chung */
+a {
+  text-decoration: none;
+}
+.main-content {
+  width: 900px;
+  height: 100px;
+  min-width: calc(100% - 500px);
+  margin-left: auto;
+  margin-right: auto;
+}
+/* header */
+.header {
+  background-color: rgba(0, 0, 0, 0.678);
+}
+.header .fixed {
+  position: sticky;
+  top: -28px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav ul {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav a {
+  color: white;
+  margin-right: 30px;
+}
+.nav a:hover {
+  color: red;
+  font-weight: 600;
+}
+.header .btn-sign-up {
+  display: inline-block;
+  max-width: 100px;
+  padding: 0 16px;
+  line-height: 40px;
+  color: white;
+  background-color: black;
+  border-radius: 60px;
+  min-width: 50px;
+}
+.header .action {
+  margin-left: 70px;
 }
